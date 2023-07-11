@@ -11,7 +11,7 @@ function App() {
     <React.Fragment>
       <div className='h-screen flex flex-columns'>
         <CalendarHeader />
-        <div className='flex flex-1 grid'>
+        <div className='flex flex-1'>
           <Sidebar />
           <Month month={currentMonth} />
         </div>
