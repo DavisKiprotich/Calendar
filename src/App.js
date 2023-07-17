@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 import Month from './components/Month'
 
 function App() {
+  console.log(getMonth(3))
   const [currentMonth, setCurrentMonth] = useState(getMonth())
   return (
     <React.Fragment>
